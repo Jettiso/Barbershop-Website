@@ -1,0 +1,11 @@
+@import './mixins';
+
+.btn {
+    border: none;
+    padding: .5rem 2.5rem;
+    background-color: $btn-color;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: $font-secondary;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}

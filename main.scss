@@ -1,0 +1,19 @@
+// IMPORT FONTS
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+// IMPORT SCSS
+@import './reset';
+@import './variables';
+@import './schedule-list';
+@import './mixins';
+@import './nav';
+@import './buttons';
+@import './banner';
+@import './testimonials';
+//
+body {
+    background-color: $main-color;
+}
+
+
+

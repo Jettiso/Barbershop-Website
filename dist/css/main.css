@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #FEFEFE;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.schedule__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem;
+  height: 500px;
+  width: 100%;
+}
+
+.schedule__container .img {
+  flex-basis: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.schedule__container-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.schedule__container-list .row-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.schedule__container-list .row-container .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: .5rem 1rem;
+}
+
+.schedule__container-list .row-container .row p {
+  margin: 1rem 2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #FEFEFE;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #1D1D1D;
+  color: #FEFEFE;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Space Mono", monospace;
+}
+
+.nav__list-items {
+  margin: 1rem;
+}
+
+.nav__list-items:hover {
+  border-bottom: 1.5px solid #FEFEFE;
+}
+
+.btn {
+  border: none;
+  padding: .5rem 2.5rem;
+  background-color: #7093EF;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "Space Mono", monospace;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(/images/bannerimg.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.banner__logo {
+  margin-bottom: 1rem;
+  font-size: 5.5rem;
+  font-family: "Italiana", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #FEFEFE;
+}
+
+body {
+  background-color: #1D1D1D;
+}
+/*# sourceMappingURL=main.css.map */

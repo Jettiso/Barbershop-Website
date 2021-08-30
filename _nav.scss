@@ -1,0 +1,21 @@
+@import './variables';
+
+//======NAV======
+.nav {
+    @include flex(center, row);
+    height: 10vh;
+    background-color: $main-color;
+    color: $text-color;
+    &__list {
+        @include flex(space-between, row);
+        text-transform: uppercase;
+        font-family: $font-secondary;
+        &-items {
+            margin: 2rem;
+            &:hover {
+                border-bottom: 1.5px solid #FEFEFE;
+            }
+        }
+      
+    }
+}
